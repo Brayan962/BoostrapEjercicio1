@@ -1,0 +1,202 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+</head>
+
+<body>
+    <h1>Hola Mundo</h1>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+
+    <nav class="navbar navbar-expand-lg fixed-top shadow" data-bs-theme="dark">
+        <div class="container-lg">
+            <a class="navbar-brand fw-bold" href="#">Hotel Caribe</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Sobre Nosotros</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Habitaciones
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Accion</a></li>
+                            <li><a class="dropdown-item" href="#">Contactos</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Lugares interes</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link">Blog</a>
+                    </li>
+                </ul>
+                <a class="btn btn-outline-light" href="#">Contactanos</a>
+                <a class="btn btn-outline-light" href="#">Iniciar Seccion</a>
+
+            </div>
+        </div>
+    </nav>
+    <div class="hero d-flex align-items-center justify-content-center text-center">
+        <div class="hero-content position-relative">
+            <h1 class="text-light bg-dark p-3 pb-4" style="--bs-bg-opacity: .5;">Mira los lugares mas hermosos de
+                nuestras playa</h1>
+            <button class="btn position-absolute top-100 start-50 translate-middle">Ver lugares</button>
+        </div>
+    </div>
+    <div class="why-us text-center position-relative pt-5">
+        <div class="container">
+            <h2 class="fw-bold">Nuestras Redes Sociales</h2>
+            <h5 class="text-uppercase text-secondary p-3"><span class="p-3">facebook</span> | <span class="p-3">Twitter
+                    | <span class="p-3">instagram</span> </span>
+            </h5>
+            <div class="why-sub-section">
+                <div class="row g-4">
+                    <div class="col-sm-4">
+                        <img src="project-1.jpg" class="img-fluid" alt="">
+                        <h5 class="p-2">Acantilados</h5>
+                        <button class="btn">Saber mas sobre</button>
+                    </div>
+                    <div class="col-sm-4">
+                        <img src="project-2.jpg" class="img-fluid" alt="">
+                        <h5 class="p-2">Mares</h5>
+                        <button class="btn">Saber mas sobre</button>
+                    </div>
+                    <div class="col-sm-4">
+                        <img src="project-3.jpg" class="img-fluid" alt="">
+                        <h5 class="p-2">Playas</h5>
+                        <button class="btn">Saber mas sobre</button>
+                    </div>
+                </div>
+            </div>
+            <div class="quote pt-3 text-center">
+                <p class="fs-5">"Elige tu actividad favorita de nuestros lugares"</p class="fs-5">
+                <p class="text-uppercase">- Experiencia inolvidable</p>
+            </div>
+            <div class="quote-bg py-5 position-absolute bottom-0 start-0 end-0 z-n1 d-none d-lg-block">
+
+            </div>
+        </div>
+
+    </div>
+
+    <div class="about position-relative py-3">
+        <div class="container">
+            <h2 class="fw-bold py-3 px-4">Sobre Nuestras Habitaciones</h2>
+            <div class="row align-items-end">
+                <div class="col-xl-6 col-lg-7">
+                    <img src="Interior.jpg" class="img-fluid" alt="">
+                </div>
+                <div class="col-xl-6 col-lg-5">
+                    <p class="py-2">La habitación estándar es la opción más común,
+                        proporcionando un espacio acogedor con una cama doble o dos camas individuales,
+                        ideal para viajeros individuales en resumen,
+                        combina comodidad, funcionalidad, limpieza y comodidades
+                        modernas para brindar a los huéspedes una estadía memorable y agradable. </p>
+                    <button class="btn">Mas Sobre Habitaciones</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="contact hero d-flex align-items-center justify-content-center text-center">
+        <div class="hero-content position-relative">
+            <h1 class="text-light bg-dark p-3 pb-4" style="--bs-bg-opacity: .5;">Los Lugares mas Hermosos de Honduras
+                para viajar</h1>
+            <button class="btn position-absolute top-100 start-50 translate-middle">Ver Lugares</button>
+        </div>
+    </div>
+
+    <footer class="text-light pt-5">
+        <div class="container-lg">
+            <div class="row">
+                <div class="col-6 col-lg-4">
+                    <h3 class="fw-bold">Hotel Caribe</h3>
+                    <p class="pt-2">Para proporcionar las mejores vacaciones de tu vida.</p>
+                    <p class="mb-2">33-84-55-57</p>
+                    <p>9778-6149</p>
+                </div>
+                <div class="col">
+                    <h4>Menu</h4>
+                    <ul class="list-unstyled pt-2">
+                        <li class="py-1">Inicio</li>
+                        <li class="py-1">Cortos</li>
+                        <li class="py-1">Sobre</li>
+                        <li class="py-1">Contactos</li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <h4>Mas</h4>
+                    <ul class="list-unstyled pt-2">
+                        <li class="py-1">Metodos Pagos</li>
+                        <li class="py-1">Libro Quejas</li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <h4>Categorias</h4>
+                    <ul class="list-unstyled pt-2">
+                        <li class="py-1">Servicios</li>
+                        <li class="py-1">Buffet</li>
+                        <li class="py-1">Habitacion</li>
+                        <li class="py-1">Estacionamiento</li>
+                    </ul>
+                </div>
+                <div class="col-6 col-lg-3 text-lg-end">
+                    <h4>Social Links</h4>
+                    <div class="social-media pt-2">
+                        <a href="#" class="text-light fs-2 me-3"><i class="bi bi-facebook"></i></a>
+                        <a href="#" class="text-light fs-2 me-3"><i class="bi bi-pinterest"></i></a>
+                        <a href="#" class="text-light fs-2 me-3"><i class="bi bi-instagram"></i></a>
+                        <a href="#" class="text-light fs-2"><i class="bi bi-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="d-sm-flex justify-content-between py-1">
+                <p>2025 © Hotel Caribe. Todos los Derechos Reservados </p>
+                <p>
+                    <a href="#" class="text-light text-decoration-none pe-4">Terminos de uso</a>
+                    <a href="#" class="text-light text-decoration-none"> Politicas de Privacidad</a>
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <form>
+        <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+        </div>
+        <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">Password</label>
+            <input type="password" class="form-control" id="exampleInputPassword1">
+        </div>
+        <div class="mb-3 form-check">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label class="form-check-label" for="exampleCheck1">Check me out</label>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+
+</html>
